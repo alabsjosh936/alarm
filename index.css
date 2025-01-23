@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#gen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+#gene{
+    background-color: navy;
+    width: 60%;
+    height: 70%;
+    padding-top: 2%;
+}
+.clock{
+    width: 35%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.clock img{
+    width: 100%;
+}
+.clock h1{
+    font-size: 30px;
+    color: beige;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 15px;
+}
+#input select{
+    height: 25px;
+}
+#trig{
+    width: 91%;
+    margin: auto;
+}
+#trig button{
+    width: 100%;
+    margin-top: 30px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: beige;
+}
